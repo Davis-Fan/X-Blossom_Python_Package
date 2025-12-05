@@ -1,4 +1,4 @@
-# X-Blossom
+# X-Blossom Python
 
 This is the code repository for compiling X-Blossom Python package
 
