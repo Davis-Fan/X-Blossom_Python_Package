@@ -2,6 +2,12 @@
 #include "graph.h"
 #include "stopwatch.h"
 
+std::chrono::microseconds duration_prepare{0};
+std::chrono::microseconds duration_blossom{0};
+std::chrono::microseconds duration_augmenting_path{0};
+std::chrono::microseconds duration_expand{0};
+std::chrono::microseconds duration_total{0};
+
 /// \brief Compute a maximum matching on an undirected graph using X-Blossom.
 ///
 /// This routine repeatedly finds augmenting paths in G and updates the

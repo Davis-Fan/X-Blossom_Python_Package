@@ -1,5 +1,3 @@
-
-
 #ifndef BLOSSOM_STOPWATCH_H
 #define BLOSSOM_STOPWATCH_H
 
